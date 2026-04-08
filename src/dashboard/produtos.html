@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <header>
+        <!-- Include header component -->
+        <div id="header"></div>
+    </header>
+
+    <main>
+        <h1>Lista de Produtos</h1>
+        <div id="produtos-container">
+            <!-- Os produtos serão carregados aqui dinamicamente -->
+        </div>
+        <button id="adicionar-produto">Adicionar Produto</button>
+    </main>
+
+    <footer>
+        <!-- Include footer component -->
+        <div id="footer"></div>
+    </footer>
+
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/slug-generator.js"></script>
+    <script>
+        // Carregar produtos do JSON e exibir na página
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('../../data/produtos.json')
+                .then(response => response.json())
+                .then(data => {
+                    const produtosContainer = document.getElementById('produtos-container');
+                    data.forEach(produto => {
+                        const produtoDiv = document.createElement('div');
+                        produtoDiv.classList.add('produto');
+                        produtoDiv.innerHTML = `
+                            <h2>${produto.nome}</h2>
+                            <img src="${produto.imagem}" alt="${produto.nome}">
+                            <p>${produto.descricao}</p>
+                            <p>Preço: R$ ${produto.preco}</p>
+                            <p>Cartões aceitos: ${produto.bandeiras.join(', ')}</p>
+                            <button class="comprar" data-id="${produto.id}">Comprar</button>
+                        `;
+                        produtosContainer.appendChild(produtoDiv);
+                    });
+                });
+        });
+    </script>
+</body>
+</html>

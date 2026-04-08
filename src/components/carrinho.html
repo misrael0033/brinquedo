@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../shared/css/checkout.css">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <div class="carrinho-container">
+        <h1>Seu Carrinho de Compras</h1>
+        <div id="itens-carrinho">
+            <!-- Os itens do carrinho serão inseridos aqui via JavaScript -->
+        </div>
+        <div class="total">
+            <h2>Total: <span id="total-valor">R$ 0,00</span></h2>
+        </div>
+        <div class="metodos-pagamento">
+            <h3>Métodos de Pagamento Aceitos</h3>
+            <ul>
+                <li>Cartão de Crédito</li>
+                <li>Cartão de Débito</li>
+                <li>PIX</li>
+            </ul>
+        </div>
+        <button id="finalizar-compra">Finalizar Compra</button>
+    </div>
+    <script src="../shared/js/carrinho.js"></script>
+</body>
+</html>

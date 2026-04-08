@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto - Nome do Produto</title>
+    <link rel="stylesheet" href="assets/css/produto.css">
+</head>
+<body>
+    <header>
+        <!-- Inclua o cabeçalho aqui -->
+        <!-- Exemplo: <include src="../../components/header.html"></include> -->
+    </header>
+
+    <main>
+        <section class="produto-detalhes">
+            <h1>Nome do Produto</h1>
+            <div class="imagens-produto">
+                <img src="caminho/para/imagem-principal.jpg" alt="Imagem do Produto">
+                <!-- Adicione mais imagens se necessário -->
+            </div>
+            <div class="descricao-produto">
+                <p>Descrição detalhada do produto.</p>
+                <p>Preço: R$ <span id="preco-produto">99,99</span></p>
+                <p>Métodos de pagamento aceitos: Cartões, Pix</p>
+                <button id="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+
+        <section class="recomendacoes">
+            <h2>Produtos Recomendados</h2>
+            <div class="produtos-recomendados">
+                <!-- Aqui você pode adicionar produtos recomendados -->
+                <div class="produto-recomendado">
+                    <h3>Nome do Produto Recomendado</h3>
+                    <img src="caminho/para/imagem-recomendada.jpg" alt="Imagem do Produto Recomendado">
+                    <p>Preço: R$ <span>79,99</span></p>
+                    <button>Ver Produto</button>
+                </div>
+                <!-- Adicione mais produtos recomendados conforme necessário -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Inclua o rodapé aqui -->
+        <!-- Exemplo: <include src="../../components/footer.html"></include> -->
+    </footer>
+
+    <script src="assets/js/produto.js"></script>
+    <script src="assets/js/recomendacoes.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nome": "Produto A",
+        "descricao": "Descrição do Produto A",
+        "preco": 99.99,
+        "imagens": [
+            "url_da_imagem_a1.jpg",
+            "url_da_imagem_a2.jpg"
+        ],
+        "videos": [
+            "url_do_video_a.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 1",
+                "comentario": "Ótimo produto!"
+            },
+            {
+                "usuario": "Cliente 2",
+                "comentario": "Super recomendo!"
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard", "American Express"],
+            "pix": true
+        },
+        "slug": "produto-a"
+    },
+    {
+        "id": 2,
+        "nome": "Produto B",
+        "descricao": "Descrição do Produto B",
+        "preco": 149.99,
+        "imagens": [
+            "url_da_imagem_b1.jpg",
+            "url_da_imagem_b2.jpg"
+        ],
+        "videos": [
+            "url_do_video_b.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 3",
+                "comentario": "Excelente qualidade!"
+            },
+            {
+                "usuario": "Cliente 4",
+                "comentario": "Vale cada centavo!"
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard"],
+            "pix": true
+        },
+        "slug": "produto-b"
+    },
+    {
+        "id": 3,
+        "nome": "Produto C",
+        "descricao": "Descrição do Produto C",
+        "preco": 199.99,
+        "imagens": [
+            "url_da_imagem_c1.jpg",
+            "url_da_imagem_c2.jpg"
+        ],
+        "videos": [
+            "url_do_video_c.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 5",
+                "comentario": "Muito satisfeito com a compra!"
+            },
+            {
+                "usuario": "Cliente 6",
+                "comentario": "Produto incrível!"
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard", "Elo"],
+            "pix": true
+        },
+        "slug": "produto-c"
+    }
+]

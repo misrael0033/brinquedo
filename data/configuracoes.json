@@ -1,0 +1,20 @@
+{
+  "siteName": "Meu Site de Vendas",
+  "siteDescription": "Um site personalizado para gerenciar e vender produtos.",
+  "paymentMethods": {
+    "acceptedCards": ["Visa", "MasterCard", "American Express"],
+    "pix": true
+  },
+  "defaultCurrency": "BRL",
+  "contactEmail": "contato@meusitevendas.com",
+  "socialMedia": {
+    "facebook": "https://facebook.com/meusitevendas",
+    "instagram": "https://instagram.com/meusitevendas",
+    "twitter": "https://twitter.com/meusitevendas"
+  },
+  "theme": {
+    "primaryColor": "#3498db",
+    "secondaryColor": "#2ecc71",
+    "font": "Arial, sans-serif"
+  }
+}

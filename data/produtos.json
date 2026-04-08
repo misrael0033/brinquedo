@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nome": "Produto A",
+        "descricao": "Descrição do Produto A",
+        "preco": 99.99,
+        "imagens": [
+            "assets/imagens/produto-a-1.jpg",
+            "assets/imagens/produto-a-2.jpg"
+        ],
+        "videos": [
+            "assets/videos/produto-a-video.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 1",
+                "comentario": "Produto excelente, recomendo!"
+            },
+            {
+                "usuario": "Cliente 2",
+                "comentario": "Atendeu todas as minhas expectativas."
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard", "American Express"],
+            "pix": true
+        },
+        "slug": "produto-a"
+    },
+    {
+        "id": 2,
+        "nome": "Produto B",
+        "descricao": "Descrição do Produto B",
+        "preco": 149.99,
+        "imagens": [
+            "assets/imagens/produto-b-1.jpg",
+            "assets/imagens/produto-b-2.jpg"
+        ],
+        "videos": [
+            "assets/videos/produto-b-video.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 3",
+                "comentario": "Ótimo custo-benefício!"
+            },
+            {
+                "usuario": "Cliente 4",
+                "comentario": "Superou minhas expectativas."
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard"],
+            "pix": true
+        },
+        "slug": "produto-b"
+    },
+    {
+        "id": 3,
+        "nome": "Produto C",
+        "descricao": "Descrição do Produto C",
+        "preco": 199.99,
+        "imagens": [
+            "assets/imagens/produto-c-1.jpg",
+            "assets/imagens/produto-c-2.jpg"
+        ],
+        "videos": [
+            "assets/videos/produto-c-video.mp4"
+        ],
+        "depoimentos": [
+            {
+                "usuario": "Cliente 5",
+                "comentario": "Produto de alta qualidade."
+            },
+            {
+                "usuario": "Cliente 6",
+                "comentario": "Recomendo para todos!"
+            }
+        ],
+        "metodos_pagamento": {
+            "cartoes_aceitos": ["Visa", "MasterCard", "Elo"],
+            "pix": true
+        },
+        "slug": "produto-c"
+    }
+]
